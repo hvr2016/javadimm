@@ -1,0 +1,45 @@
+INSTRUMENT : "javadimm"   
+
+# >>>> Location
+# Site name
+SITE       : 'OAJ/Monitors'
+
+# Site longitude (deg)
+SITE_LONGITUDE: -1.01639
+
+# Site latitude (deg)
+SITE_LATITUDE : 40.04250
+
+# Site elevation avobe see level (m)
+SITE_ELEVATION: 1956
+
+# Instrument elevation above ground level (m)
+INST_ELEVATION: 1.5
+
+# Directory where the movies are stored
+INPUT_DIR  : '/media/hvr/TOSHIBA_EXT_3TB/hvr/buffer/20161111/javadimm/2016/'
+
+# Sextractor configuration file
+CONFIG_SEX : './config00_no_outfit.sex'
+
+# Effective wavelength (m)
+"LAMBDA"   : 550e-9
+
+# Diameter of the sub-apertures (m)
+DIAMETER   : 0.0775
+
+# Length of the baselines (m)
+BASELINE   : 0.1725
+
+# Pixel scale (arcsec/pix)
+ARCSEC_PIX : 0.360
+
+# Number of frames per seeing measurement
+NFRAMES : 200
+
+# >>>> Sextractor parameters
+# Saturation level (ADU)
+SATUR_LEVEL : 251
+# Detection threshold
+DETECT_THRESH : 30
+
